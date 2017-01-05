@@ -1,1 +1,7 @@
-This repository contains all of the information required to produce an 8x1 multiplexer shield for the Arduino Uno. The shield features two sets of heavy duty screw terminals for coupling sensors to the Arduino. It is assumed that each sensor has three leads: one for power (3.3V), one for a ground connection, and one for a return signal (0-3.3V). The shield is fully compatible with the Arduino Uno datalogger shield sold by Adafruit Industries, Inc. A full system (Arduino + datalogger + multiplexer shield) easily records input from up to 8 external sensors.
+This repository contains all of the information required to produce 
+multiplexer-datalogger shield for the Arduino Uno. The shield features two
+sets of heavy duty screw terminals for coupling sensors to the Arduino.
+It is assumed that each sensor has three leads: one for power (3.3V), one for
+a ground connection, and one for a return signal (0-3.3V). The shield also
+has a 4051 8x1 multiplexer for switching between the eight analog inputs, and
+it accomodates an SD card for data storage.
